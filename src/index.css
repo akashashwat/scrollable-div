@@ -1,0 +1,41 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.shubham {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: column;
+  width: 15%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  background-color: #ddd;
+}
+
+.navigation>a {
+  padding: 10px 15px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.navigation>a.active {
+  background: linear-gradient(90deg, #6cafff, #ff7bad 27.6%, #ffc940 63.54%, #ffc940);
+  color: #000;
+}
+
+.img-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 30px;
+}
